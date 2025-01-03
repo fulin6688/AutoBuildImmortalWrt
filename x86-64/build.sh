@@ -11,6 +11,8 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始编译..."
 # 定义所需安装的包列表
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
+PACKAGES="$PACKAGES luci-app-vlmcsd"
+PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
